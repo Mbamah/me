@@ -1,0 +1,69 @@
+######## Html file start #######
+
+
+######## Html file end ########
+
+******* Css file start ********
+
+
+
+******* Css file end ********
+ <div class="flex_container">
+          <div class="phone">
+            <img src="./assets/icons/phone.svg" class="phone" alt="phone">
+            <h4>Call me</h4>
+            <p>+233 502964282</p>
+          </div>
+          <div class="email">
+            <img src="./assets/icons/email.svg" alt="email">
+            <h4>Email me </h4>
+            <a href="mailto:mbamah1999@gmail.com">mbamah1999@gmail.com</a>
+          </div>
+          <div class="location">
+            <img src="./assets/icons/location.svg" alt="location">
+            <h4>Where to find me</h4>
+            <p>Accra, Ghana</p>
+          </div>
+        </div>
+    .flex_container  {
+  /* background: #ccc; */
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 200px;
+}
+.flex_container h4{
+  margin: .5em 0;
+  text-transform: uppercase;
+}
+.flex_container img{
+  margin: 1.5em 0;
+  width: 35px;
+  height: 35px;
+  filter: invert(15%) sepia(92%) saturate(3662%) hue-rotate(270deg) brightness(76%) contrast(104%);
+}
+.flex_container .email a{
+  text-decoration: none;
+  color: #000;
+}
+
+.phone, .location, .email{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+****favicon****
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+****favicon end****
+
+*****favicon 2****
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
