@@ -98,4 +98,14 @@
          width: 25px;
          margin: 0 .8em;
      }
-    
+    @media only screen and (max-width: 700px){
+      .box{
+        display: flex;
+        /* flex-direction: column; */
+        /* padding: 0 2em; */
+      }
+      .card{
+        width:300px;
+        height:350px;
+      }
+    }
